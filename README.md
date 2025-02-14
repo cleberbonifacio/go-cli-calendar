@@ -20,8 +20,12 @@ Este é um projeto simples de CLI (Interface de Linha de Comando) para gerenciam
    cd go-cli-calendar
    go mod tidy
 
+3. **Criar conta de serviço no google cloud**
+4. **Criar chaves para a conta de serviço**
+5. **Vincular chave a alguma agenda do google calendar**
+6. **Salvar credenciais no arquivo credentials.json**    
 
-3. **Compilar o projeto::**
+7. **Compilar o projeto::**
 
    ```bash
    go build -o calendar-cli main.go
